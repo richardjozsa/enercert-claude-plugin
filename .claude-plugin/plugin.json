@@ -1,0 +1,25 @@
+{
+  "name": "enercert",
+  "displayName": "EnerCert",
+  "version": "1.0.0",
+  "description": "Skills for the EnerCert connector: build an energy-certification project as one plan the certifier approves in EnerCert, prepare and compare renovation scenarios, and review project readiness. Results are advisory, not a certificate.",
+  "author": {
+    "name": "Józsa Richárd e.v.",
+    "email": "info@enercert.hu",
+    "url": "https://enercert.hu"
+  },
+  "homepage": "https://enercert.hu/tudasbazis/ai-asszisztens-csatlakoztatas/",
+  "repository": "https://github.com/richardjozsa/enercert-claude-plugin",
+  "keywords": [
+    "energy certification",
+    "energetikai tanúsítvány",
+    "building energy",
+    "renovation",
+    "Hungary"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://enercert.hu/tudasbazis/ai-asszisztens-csatlakoztatas/",
+  "supportUrl": "https://enercert.hu/kapcsolat/",
+  "privacyPolicyUrl": "https://app.enercert.hu/privacy#kapcsolt-ai-asszisztensek",
+  "termsOfServiceUrl": "https://app.enercert.hu/terms"
+}

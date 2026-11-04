@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "enercert": {
+      "type": "http",
+      "url": "https://mcp.enercert.hu/mcp"
+    }
+  }
+}

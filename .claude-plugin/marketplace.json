@@ -1,0 +1,16 @@
+{
+  "name": "enercert",
+  "description": "EnerCert plugin for Claude: skills for the EnerCert energy-certification connector.",
+  "owner": {
+    "name": "Józsa Richárd e.v.",
+    "email": "info@enercert.hu",
+    "url": "https://enercert.hu"
+  },
+  "plugins": [
+    {
+      "name": "enercert",
+      "source": "./",
+      "description": "Build EnerCert projects as approved plans, prepare renovation scenarios and review readiness through the EnerCert connector."
+    }
+  ]
+}
