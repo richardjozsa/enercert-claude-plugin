@@ -68,6 +68,15 @@ Ask in one message for everything the plan needs and the user has not given. Typ
   uses, and for windows count, size, U and g (or a catalogue product) and the host element;
 - systems: for each system its category, `systemTypeCode` and energy carrier (`energyCarrier`;
   ventilation may omit it), and the generator value (efficiency, SPF, or a catalogue product);
+- **ventilation:** always ask for the airtightness row of S3 Table 2.4 and set
+  `attributes.infiltrationClass` (airtightness `poor` / `medium` / `good` / `excellent`; one or
+  several facades; storeys 1–2 / 3–6 / 7+; sheltered or exposed; for example
+  `medium_single_1_2_exposed`), or an explicit `infiltrationAirChangePerH` the user states. Never
+  default it: without either the result reports `infiltrationClass` missing. Mechanical
+  ventilation (MVHR) also needs `heatRecoveryEfficiency`, `sfpWPerM3s`, `ventDuctType`,
+  `ventControlType` and `ventMotorType`;
+- **boilers:** ask the boiler type (condensing, low-temperature, constant, combi) and whether it
+  stands inside or outside the heated space. Never assume a condensing boiler inside;
 - **hot water (DHW):** always ask for `attributes.erpScope` — `in` (an ErP-labelled unit; then
   also `erpEtaS` or `epsHMV`), `out`, or `unknown`. Never default it;
 - thermal bridges: detailed (ψ/χ per bridge, or ψ `catalogue_typical`) or percentage mode;
